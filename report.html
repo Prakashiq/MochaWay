@@ -1,0 +1,23 @@
+    <section class="suite">
+      <h1>Member Application requirement</h1>
+      <dl>
+        <section class="suite">
+          <h1>Application valid if</h1>
+          <dl>
+            <dt>All validators successful</dt>
+            <dd><pre><code>assert(validApp.isValid(), 'Not Valid');</code></pre></dd>
+            <dt>email is 4 or more char and contains an @ symbol</dt>
+            <dd><pre><code>validApp.emailIsValid();
+           assert(validApp.emailIsValid());</code></pre></dd>
+            <dt>first name &amp; last name should present</dt>
+            <dd><pre><code>assert(validApp.nameIsValid());</code></pre></dd>
+            <dt>age is between 16 &amp; 75</dt>
+            <dd><pre><code>assert(validApp.ageIsValid());</code></pre></dd>
+            <dt>height is between 60 to 75</dt>
+            <dd><pre><code>assert(validApp.heightIsValid());</code></pre></dd>
+            <dt>weight is between 100 to 300 lb</dt>
+            <dd><pre><code>assert(validApp.weightIsValid());</code></pre></dd>
+          </dl>
+        </section>
+      </dl>
+    </section>

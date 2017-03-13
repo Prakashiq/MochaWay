@@ -1,0 +1,18 @@
+{
+  "name": "mochaway",
+  "version": "1.0.0",
+  "description": "unit testing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "'Prakash'",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.17.1",
+    "underscore": "^1.8.3"
+  }
+}
